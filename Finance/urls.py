@@ -17,6 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from Finance import views
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('Add_transaction/',views.Add_transaction,name='Add_transaction'),
+    path('Total_transaction_by_category/',views.Total_transaction_by_category,name='Total_transaction_by_category'),
+    path('Transaction_details/',views.Transaction_details,name='Transaction_details'),
 ]

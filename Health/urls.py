@@ -21,5 +21,7 @@ from Health import views
 
 urlpatterns = [
   path('',views.Add_record,name='Add_record'),
+  path('Emergency_contact',views.Emergency_contact,name='Emergency_contact'),
+  path('Record_details/',views.Record_details,name='Record_details'),
   path('',views.Record_list,name='Record_list'),
 ]
