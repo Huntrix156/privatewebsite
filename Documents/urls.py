@@ -23,4 +23,6 @@ urlpatterns = [
     path('Detail_page/',views.Detail_page,name='Detail_page'),
     path('Edit_page/',views.Edit_page,name='Edit_page'),
     path('list_page',views.list_page,name='list_page'),
+    path('Index/',views.index,name='index'),
+    path('about/',views.about,name='about'),
 ]

@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<body>
+
+<h2>Welcome to Denis Dashboard</h2>
+    <h1>Quick Actions</h1>
+
+<div>
+
+<div class="quick-action">
+    <div>
+    <button><a href="{% url 'list_page' %}">List Page</a></button>
+    <button><a href="{% url 'Add_page' %}">Add Page</a></button>
+    <button><a href="{% url 'Edit_page' %}">Edit Page</a></button>
+    <button><a href="{% url 'Detail_page' %}">Detail Page</a></button>
+    </div>
+
+<div>
+    <img  src="/media/indexpictures/Denisweb.jpg/" alt="">
+</div>
+</div>
+
+    <h2>Display Screen:</h2>
+    <div class="quick-action">
+            <div>
+    <img src="/media/indexpictures/Myportfolio.jpg" alt="">
+                </div>
+    <div>
+        <p>Welcome to my Private  Website</p>
+    </div>
+        </div>
+
+</div>
+
+
+</body>
+{% endblock %}

@@ -9,3 +9,7 @@ def Edit_page(request):
     return render(request,'Edit_page.html')
 def list_page(request):
     return render(request,'list_page.html')
+def index(request):
+    return render(request,'index.html')
+def about(request):
+    return render(request,'about.html')

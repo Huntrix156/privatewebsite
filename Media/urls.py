@@ -22,4 +22,6 @@ urlpatterns = [
     path('Detail/',views.Detail,name='Detail'),
     path('Gallery/',views.Gallery,name='Gallery'),
     path('Upload/',views.Upload,name='Upload'),
+    path('add/', views.Add_project, name='Add_project'),
+    path('project_achieved/',views.project_achieved,name='project_achieved'),
 ]

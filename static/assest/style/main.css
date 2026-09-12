@@ -1,0 +1,52 @@
+body{
+    background-color: antiquewhite;
+    font-family: "Times New Roman", serif;
+}
+h1{
+ font-family: "Roboto", sans-serif;
+}
+hr{
+    height: 7px;
+    background-color: black;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color:#000 ;
+}
+.project-image{
+
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #1b8827;
+}
+
+button:hover{
+    background-color: darkgreen;
+    color:white;
+}
+
+.quick-action{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.about{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+img{
+    width:80%;
+    height:60%;
+}
+/*.small-section {*/
+/*    background-image: url('media/indexpictures/Denisweb.jpg');*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    width: 300px; !* Adjust size as needed *!*/
+/*    height: 200px; !* Adjust size as needed *!*/
+/*}*/
